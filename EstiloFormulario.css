@@ -1,0 +1,140 @@
+body {
+    background-color: #222222;
+    color: #DDDDDD;
+    font-family: Verdana, Sans-serif;
+    font-size: 1.2em;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+margin: 1em 0 0 
+}
+
+.encabezado{
+    background-color: black;
+    margin: 0em;
+    padding: 1em 1.5em;
+    text-align: center;
+}
+
+.contenedor{
+    background-color: cornflowerblue;
+    border: 1px solid cornsilk;
+    margin: 3em auto;
+    width: 50%;
+}
+
+.formulario {
+    background-color: #1d1b1d;
+    border: 1px solid #aaaaaa;
+    margin: 2em auto;
+    width: 75%;
+}
+
+.campo {
+    margin: 0.5em 1.5em;
+    padding: 0.5em 0;
+}
+
+.campo label{
+    display: block;
+}
+
+.campo .en-linea{
+    display: inline-block;
+}
+
+.campo .en-linea.izquierdo{
+    margin-right: 2em;
+}
+
+.botones {
+    text-align: center;
+}
+
+.formulario .botones{
+    background-color: darkblue;
+    margin: 0;
+    padding: 1em 1.5em;
+}
+
+button, input[type=submit]{
+    background-color: #00aaee;
+    border: 1px solid #0099dd;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+}
+
+button:hover, input[type=submit]:hover,
+button:focus, input[type=submit]:focus {
+    background-color: #33ccff;
+}
+
+button:active, input[type=submit]:active {
+    background-color: #000000;
+    border: 1px solid #000030;
+    color: #dddddd;
+}
+
+button:disabled, input[type=submit]:disabled {
+    opacity: 0.2;
+    background-color: crimson;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    background-color: #EEEEEE;
+    border: 1px solid #999999;
+    color: #111111;
+    font-size: 0.9em;
+    padding: 0.4em;
+}
+
+.contenedor > .botones {
+    margin-bottom: 2em;
+}
+
+.division-tabla {
+    margin: 2em auto;
+    width: 90%;
+}
+
+table {
+    text-align: center;
+}
+
+.contenedor > .botones {
+    margin-bottom: 2em;
+}
+
+.division-tabla {
+    margin: 2em auto;
+    width: 90%;
+}
+
+table {
+    text-align: center;
+}
+
+table th {
+    background-color: #0066CC;
+    color: #FFFFFF;
+    padding: 0.5em 1em;
+    width: 19%;
+}
+
+table td {
+    background-color: #FFFFFF;
+    color: #111111;
+    padding: 0.5em 1em;
+}
+
+table, tr, th, td {
+    border: 1px solid #333333;
+    border-collapse: collapse;
+}
