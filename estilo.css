@@ -1,0 +1,22 @@
+h1{
+    background-color: red;
+    color:blue;
+    font-size: 200%;
+}
+.parrafo{
+    font-size: 3em;
+    background-color: aqua;
+    color:blue;
+}
+
+.resaltar{
+    font-size: 150%;
+    color: red;
+}
+
+.division{
+    background-color: black;
+    color: blanchedalmond;
+    height: 200px;
+    width: 50%;
+}
