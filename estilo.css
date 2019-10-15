@@ -1,12 +1,11 @@
-h1{
-    background-color: red;
-    color:blue;
-    font-size: 200%;
-}
 .parrafo{
     font-size: 3em;
     background-color: aqua;
     color:blue;
+}
+
+body{
+    background-image: url("espacio.jpg");
 }
 
 .resaltar{
@@ -14,9 +13,21 @@ h1{
     color: red;
 }
 
+.cab{
+    background-color: red;
+    color:blue;
+    font-size: 200%;
+}
+
 .division{
     background-color: black;
     color: blanchedalmond;
+    border-color: blue red;
+    border-style: dashed;
+    border-width: 3px;
     height: 200px;
-    width: 50%;
+    margin: 2em auto;
+    padding: 0.8em 2em;
+    text-align: center;
+    width: 40%;
 }
